@@ -18,5 +18,10 @@ public class ItemsModelProvider extends ItemModelProvider {
 				new ResourceLocation("item/handheld"),
 				"layer0",
 				new ResourceLocation(ModInfo.MOD_ID, "item/example_item"));
+
+		singleTexture(ModItems.SCISSORS.get().getRegistryName().getPath(),
+				new ResourceLocation("item/handheld"),
+				"layer0",
+				new ResourceLocation(ModInfo.MOD_ID, "item/scissors"));
 	}
 }

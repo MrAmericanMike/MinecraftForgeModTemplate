@@ -1,5 +1,6 @@
 {
   "itemGroup.minecraftforgemodtemplate": "Minecraft Forge Mod Template",
   "item.minecraftforgemodtemplate.example_item": "Example Item",
+  "item.minecraftforgemodtemplate.scissors": "Scissors",
   "sound.minecraftforgemodtemplate.frog": "Frog croak"
 }
