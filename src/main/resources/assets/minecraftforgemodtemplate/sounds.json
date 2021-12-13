@@ -1,0 +1,10 @@
+{
+  "frog": {
+    "subtitle": "sound.minecraftforgemodtemplate.frog",
+    "sounds": [
+      {
+        "name": "minecraftforgemodtemplate:frog"
+      }
+    ]
+  }
+}
