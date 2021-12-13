@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraftforgemodtemplate:block/black_stone"
+    }
+  }
+}

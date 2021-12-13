@@ -2,6 +2,7 @@ package mramericanmike.minecraftforgemodtemplate.setup;
 
 import mramericanmike.minecraftforgemodtemplate.items.ExampleItem;
 import mramericanmike.minecraftforgemodtemplate.items.GenericModItem;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -15,6 +16,9 @@ public class ModItems {
 			() -> new ExampleItem());
 	public static final RegistryObject<Item> SCISSORS = ITEMS.register("scissors",
 			() -> new GenericModItem(new Item.Properties().tab(ModCreativeModeTab.TAB)));
+
+	public static final RegistryObject<Item> BLACK_STONE_ITEM = ITEMS.register("black_stone",
+			() -> new BlockItem(ModBlocks.BLACK_STONE.get(), new Item.Properties().tab(ModCreativeModeTab.TAB)));
 
 	public static void init() {
 		ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());

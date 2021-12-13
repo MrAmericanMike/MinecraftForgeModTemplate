@@ -1,6 +1,9 @@
 {
   "itemGroup.minecraftforgemodtemplate": "Minecraft Forge Mod Template",
   "item.minecraftforgemodtemplate.example_item": "Example Item",
+  "hint.minecraftforgemodtemplate.example_item": "Plays a frog sound when right clicked on any block",
   "item.minecraftforgemodtemplate.scissors": "Scissors",
+  "block.minecraftforgemodtemplate.black_stone": "Black Stone",
+  "hint.minecraftforgemodtemplate.black_stone": "Can be removed faster if right clicked with scissors",
   "sound.minecraftforgemodtemplate.frog": "Frog croak"
 }

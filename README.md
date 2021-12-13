@@ -25,3 +25,6 @@ For Minecraft version 1.18
 * Registering sounds
 * Mod Creative Mode Tab
 * Language file
+* Registering blocks
+* Added a Black Stone block that can be fast mined with the scissors
+* Added loot_tables (Would need to generate this thru code too at some point)

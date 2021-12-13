@@ -13,6 +13,7 @@ public class ModDataGenerator {
 		DataGenerator generator = event.getGenerator();
 		if (event.includeClient()) {
 			generator.addProvider(new ItemsModelProvider(generator, event.getExistingFileHelper()));
+			generator.addProvider(new BlocksStateProvider(generator, event.getExistingFileHelper()));
 		}
 	}
 

@@ -4,8 +4,10 @@ import mramericanmike.minecraftforgemodtemplate.setup.ModInfo;
 import mramericanmike.minecraftforgemodtemplate.setup.ModItems;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Item;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.registries.RegistryObject;
 
 public class ItemsModelProvider extends ItemModelProvider {
 	public ItemsModelProvider(DataGenerator generator, ExistingFileHelper existingFileHelper) {
@@ -14,14 +16,14 @@ public class ItemsModelProvider extends ItemModelProvider {
 
 	@Override
 	protected void registerModels() {
-		singleTexture(ModItems.EXAMPLE_ITEM.get().getRegistryName().getPath(),
-				new ResourceLocation("item/handheld"),
-				"layer0",
-				new ResourceLocation(ModInfo.MOD_ID, "item/example_item"));
+		addTextureForItem(ModItems.EXAMPLE_ITEM);
+		addTextureForItem(ModItems.SCISSORS);
+	}
 
-		singleTexture(ModItems.SCISSORS.get().getRegistryName().getPath(),
+	private void addTextureForItem(RegistryObject<Item> item) {
+		singleTexture(item.get().getRegistryName().getPath(),
 				new ResourceLocation("item/handheld"),
 				"layer0",
-				new ResourceLocation(ModInfo.MOD_ID, "item/scissors"));
+				new ResourceLocation(ModInfo.MOD_ID, "item/" + item.get().getRegistryName().getPath()));
 	}
 }
