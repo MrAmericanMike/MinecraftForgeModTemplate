@@ -20,9 +20,6 @@ public class MinecraftForgeModTemplate {
 
 		ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, ModConfigs.SPEC, "MinecraftForgeModTemplate-client.toml");
 
-		// Config Button in game (WIP)
-		//ModConfigs.registerModsPage();
-
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		ModBlocks.registerBlocks(modEventBus);

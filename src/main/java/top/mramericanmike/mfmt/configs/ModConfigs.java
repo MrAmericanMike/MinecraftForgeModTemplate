@@ -1,8 +1,6 @@
 package top.mramericanmike.mfmt.configs;
 
-import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.common.ForgeConfigSpec;
-import net.minecraftforge.fml.ModLoadingContext;
 
 public class ModConfigs {
 
@@ -17,10 +15,4 @@ public class ModConfigs {
 		BUILDER.pop();
 		SPEC = BUILDER.build();
 	}
-
-	public static void registerModsPage() {
-		ModLoadingContext.get().registerExtensionPoint(ConfigScreenHandler.ConfigScreenFactory.class,
-				() -> new ConfigScreenHandler.ConfigScreenFactory((minecraft, screen) -> new ModConfigScreen(screen)));
-	}
-
 }
