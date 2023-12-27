@@ -1,4 +1,4 @@
-package top.mramericanmike.mfmt.client;
+package top.mramericanmike.mfmt.events.client;
 
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.fml.common.Mod;

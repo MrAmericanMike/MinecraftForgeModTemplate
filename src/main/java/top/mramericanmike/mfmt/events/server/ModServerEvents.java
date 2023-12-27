@@ -1,4 +1,4 @@
-package top.mramericanmike.mfmt.server;
+package top.mramericanmike.mfmt.events.server;
 
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

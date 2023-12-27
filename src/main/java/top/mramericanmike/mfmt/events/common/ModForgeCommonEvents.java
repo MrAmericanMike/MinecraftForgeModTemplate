@@ -1,4 +1,4 @@
-package top.mramericanmike.mfmt.common;
+package top.mramericanmike.mfmt.events.common;
 
 import net.minecraftforge.fml.common.Mod;
 import top.mramericanmike.mfmt.utils.ModUtils;
