@@ -20,6 +20,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import top.mramericanmike.mfmt.configs.ModConfigs;
+import top.mramericanmike.mfmt.utils.ModUtils;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(ModUtils.MOD_ID)
