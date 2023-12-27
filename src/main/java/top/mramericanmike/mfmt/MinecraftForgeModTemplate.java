@@ -15,10 +15,9 @@ import top.mramericanmike.mfmt.utils.ModUtils;
 public class MinecraftForgeModTemplate {
 
 	public MinecraftForgeModTemplate() {
-		ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, ModConfigs.SPEC);
-
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		ModConfigs.register();
 		ModItems.ITEMS.register(modEventBus);
 		ModBlocks.BLOCKS.register(modEventBus);
 		ModCreativeTab.CREATIVE_MODE_TABS.register(modEventBus);
