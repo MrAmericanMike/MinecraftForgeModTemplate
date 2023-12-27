@@ -1,0 +1,4 @@
+// 1.20.4	2023-12-27T15:59:34.8972895	Block States: mfmt
+5fb825bf030dfd409bfaa0fa2925703d5ac654bc assets/mfmt/blockstates/example_block.json
+9691b7fbc72534f00626bb8133658ea403f918eb assets/mfmt/models/block/example_block.json
+99f4586787ec8fda781fbc166256721193ddc74e assets/mfmt/models/item/example_block.json

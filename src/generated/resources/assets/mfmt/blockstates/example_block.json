@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mfmt:block/example_block"
+    }
+  }
+}
